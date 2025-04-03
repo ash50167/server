@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 // app.use(cors({ origin: "*", methods: "GET,POST,PUT,DELETE", allowedHeaders: ["Content-Type", "Authorization"], credentials: true }));
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://client-0eev.onrender.com');
+    res.header('Access-Control-Allow-Origin', 'https://server-lovat.vercel.app');
     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     res.header('Access-Control-Allow-Credentials', 'true');
